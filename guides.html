@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez comment utiliser gratuitement les outils MarocTools : QR Code, redimensionnement d'images, conversion PDF, compteur de mots et générateur de mots de passe.">
+  <meta name="theme-color" content="#0f766e">
+  <title>Guides et tutoriels gratuits | MarocTools</title>
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --bg: #f4f7f8;
+      --card: #ffffff;
+      --text: #17212b;
+      --muted: #5e6b75;
+      --border: #dfe7e9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      padding: 16px 20px;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      color: var(--primary);
+      font-size: 23px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    .hero {
+      padding: 65px 20px 45px;
+      text-align: center;
+      background: linear-gradient(135deg, #e1f5f2, #f4f7f8);
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 46px);
+      line-height: 1.2;
+      margin: 0 0 18px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: auto;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 35px auto 60px;
+      padding: 0 20px;
+    }
+
+    .intro {
+      margin-bottom: 30px;
+    }
+
+    .guide {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 26px;
+      margin-bottom: 24px;
+      box-shadow: 0 5px 18px rgba(15, 23, 42, 0.035);
+      scroll-margin-top: 20px;
+    }
+
+    .guide h2 {
+      margin-top: 0;
+      font-size: 25px;
+    }
+
+    .guide h3 {
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    .guide p,
+    .guide li {
+      color: #46545e;
+    }
+
+    .guide li {
+      margin-bottom: 7px;
+      padding-left: 3px;
+    }
+
+    .tip {
+      background: #eaf7f5;
+      border-left: 4px solid var(--primary);
+      border-radius: 6px;
+      padding: 12px 15px;
+      margin-top: 18px;
+      color: #204c48;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button:hover {
+      background: var(--primary-dark);
+    }
+
+    .contents {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0 35px;
+    }
+
+    .contents a {
+      padding: 8px 12px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #102a2a;
+      color: #e7f1f0;
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #a7e5dc;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding-top: 45px;
+      }
+
+      .guide {
+        padding: 19px;
+      }
+
+      nav {
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="./index.html">MarocTools</a>
+      <nav aria-label="Navigation principale">
+        <a href="./index.html">Accueil</a>
+        <a href="#guides">Guides</a>
+        <a href="./about.html">À propos</a>
+        <a href="./privacy.html">Confidentialité</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Guides et tutoriels gratuits</h1>
+    <p>
+      Apprenez à utiliser les outils MarocTools avec des explications
+      simples, des étapes pratiques et des conseils utiles.
+    </p>
+  </section>
+
+  <main class="container" id="guides">
+    <section class="intro">
+      <h2>Comment utiliser MarocTools ?</h2>
+      <p>
+        MarocTools propose plusieurs outils en ligne pour vous aider
+        à créer des QR Codes, modifier des images, convertir des photos
+        en PDF, compter des mots et générer des mots de passe.
+        Consultez le guide correspondant à votre besoin.
+      </p>
+
+      <div class="contents" aria-label="Sommaire des guides">
+        <a href="#qr-code">QR Code</a>
+        <a href="#image-resizer">Redimensionner une image</a>
+        <a href="#images-pdf">Images en PDF</a>
+        <a href="#word-counter">Compteur de mots</a>
+        <a href="#password">Mot de passe</a>
+      </div>
+    </section>
+
+    <article class="guide" id="qr-code">
+      <h2>1. Créer un QR Code gratuitement</h2>
+      <p>
+        Un QR Code est une image que l'on peut scanner avec un téléphone
+        pour ouvrir un site web ou accéder à une information.
+        Il peut être utilisé sur une affiche, une carte de visite
+        ou un document.
+      </p>
+
+      <h3>Étapes à suivre</h3>
+      <ol>
+        <li>Ouvrez la page d'accueil de MarocTools.</li>
+        <li>Choisissez l'outil de génération de QR Code.</li>
+        <li>Entrez le lien ou le texte que vous souhaitez partager.</li>
+        <li>Lancez la génération du code.</li>
+        <li>Téléchargez l'image PNG proposée.</li>
+        <li>Scannez le code avec votre téléphone pour vérifier le résultat.</li>
+      </ol>
+
+      <div class="tip">
+        Conseil : vérifiez que le lien est correct avant de partager
+        ou d'imprimer votre QR Code.
+      </div>
+      <a class="button" href="./index.html#outil">Utiliser les outils</a>
+    </article>
+
+    <article class="guide" id="image-resizer">
+      <h2>2. Redimensionner une image en ligne</h2>
+      <p>
+        Le redimensionnement permet de modifier la largeur et la hauteur
+        d'une image. Cela peut être utile pour préparer une photo destinée
+        à un site web, un formulaire ou un document.
+      </p>
+
+      <h3>Étapes à suivre</h3>
+      <ol>
+        <li>Ouvrez l'outil de redimensionnement d'images.</li>
+        <li>Sélectionnez une image depuis votre appareil.</li>
+        <li>Indiquez la largeur et la hauteur souhaitées, si ces options sont disponibles.</li>
+        <li>Vérifiez l'aperçu de l'image.</li>
+        <li>Exportez ou téléchargez le résultat au format proposé.</li>
+      </ol>
+
+      <div class="tip">
+        Conseil : conservez les proportions de l'image lorsque cela est
+        possible afin d'éviter une photo étirée ou déformée.
+      </div>
+      <a class="button" href="./index.html#outil">Redimensionner une image</a>
+    </article>
+
+    <article class="guide" id="images-pdf">
+      <h2>3. Convertir des images en PDF</h2>
+      <p>
+        Le format PDF est pratique pour envoyer ou imprimer un document
+        contenant plusieurs pages. Vous pouvez regrouper des photos
+        ou des images dans un seul fichier PDF avec l'outil adapté.
+      </p>
+
+      <h3>Étapes à suivre</h3>
+      <ol>
+        <li>Ouvrez l'outil de conversion des images en PDF.</li>
+        <li>Sélectionnez les images que vous souhaitez utiliser.</li>
+        <li>Vérifiez l'ordre des images et leur orientation.</li>
+        <li>Lancez la création du document PDF.</li>
+        <li>Téléchargez le fichier et ouvrez-le pour vérifier les pages.</li>
+      </ol>
+
+      <div class="tip">
+        Conseil : utilisez des images suffisamment nettes et vérifiez
+        que toutes les pages sont dans le bon ordre avant d'envoyer
+        le document.
+      </div>
+      <a class="button" href="./index.html#outil">Convertir des images</a>
+    </article>
+
+    <article class="guide" id="word-counter">
+      <h2>4. Compter les mots et les caractères</h2>
+      <p>
+        Un compteur de mots aide à vérifier la longueur d'un texte.
+        Il peut être utile pour rédiger un devoir, un CV, une description
+        de produit, un article ou un message professionnel.
+      </p>
+
+      <h3>Étapes à suivre</h3>
+      <ol>
+        <li>Ouvrez l'outil Compteur de mots.</li>
+        <li>Copiez votre texte et collez-le dans la zone prévue.</li>
+        <li>Consultez le nombre de mots et de caractères affiché.</li>
+        <li>Modifiez votre texte et vérifiez à nouveau le résultat.</li>
+      </ol>
+
+      <div class="tip">
+        Conseil : pour un travail scolaire ou professionnel, vérifiez
+        si la limite demandée concerne les mots, les caractères avec
+        espaces ou les caractères sans espaces.
+      </div>
+      <a class="button" href="./index.html#outil">Compter les mots</a>
+    </article>
+
+    <article class="guide" id="password">
+      <h2>5. Générer un mot de passe plus robuste</h2>
+      <p>
+        Un mot de passe long et unique contribue à mieux protéger
+        vos comptes. Un générateur peut créer une combinaison aléatoire
+        de lettres, de chiffres et de symboles.
+      </p>
+
+      <h3>Étapes à suivre</h3>
+      <ol>
+        <li>Ouvrez le générateur de mots de passe.</li>
+        <li>Choisissez une longueur suffisante si cette option existe.</li>
+        <li>Activez les types de caractères proposés selon vos besoins.</li>
+        <li>Générez un mot de passe et copiez-le de façon sécurisée.</li>
+        <li>Enregistrez-le dans un gestionnaire de mots de passe fiable.</li>
+      </ol>
+
+      <div class="tip">
+        Sécurité : utilisez un mot de passe différent pour chaque compte.
+        Ne partagez jamais vos mots de passe et ne les publiez pas dans
+        un message ou une capture d'écran.
+      </div>
+      <a class="button" href="./index.html#outil">Générer un mot de passe</a>
+    </article>
+
+    <section class="guide">
+      <h2>Questions fréquentes</h2>
+
+      <h3>MarocTools est-il gratuit ?</h3>
+      <p>
+        Les outils proposés sur le site sont destinés à être accessibles
+        gratuitement. Vérifiez toujours les fonctionnalités réellement
+        disponibles sur chaque outil.
+      </p>
+
+      <h3>Dois-je installer un logiciel ?</h3>
+      <p>
+        Les outils web peuvent être utilisés depuis un navigateur
+        compatible, sans installer une application de bureau.
+      </p>
+
+      <h3>Mes fichiers sont-ils envoyés sur un serveur ?</h3>
+      <p>
+        Le traitement des fichiers dépend du fonctionnement réel de chaque
+        outil. Consultez la politique de confidentialité et évitez de
+        téléverser des documents sensibles si vous ne connaissez pas
+        le mode de traitement.
+      </p>
+
+      <h3>Comment signaler un problème ?</h3>
+      <p>
+        Consultez la page À propos pour trouver les informations
+        disponibles sur le site. Une adresse de contact doit être ajoutée
+        si vous souhaitez recevoir des demandes des visiteurs.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> MarocTools — Outils en ligne gratuits</p>
+    <p>
+      <a href="./index.html">Accueil</a>
+      <a href="./about.html">À propos</a>
+      <a href="./privacy.html">Confidentialité</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
