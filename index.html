@@ -1,16 +1,195 @@
 <!doctype html>
-<html lang="fr" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Outils gratuits en français et arabe : QR code, images, PDF, texte et mots de passe."><title>MarocTools — Outils gratuits</title><link rel="stylesheet" href="style.css"></head>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Outils gratuits en français et arabe : QR code, images, PDF, texte et mots de passe.">
+  <meta name="theme-color" content="#0f766e">
+  <title>MarocTools — Outils gratuits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<header><a class="brand" href="#"><b>M</b><span>Maroc<strong>Tools</strong><small data-fr="Des outils utiles, simplement." data-ar="أدوات مفيدة، بكل بساطة.">Des outils utiles, simplement.</small></span></a><nav><a href="#tools" data-fr="Outils" data-ar="الأدوات">Outils</a><a href="#about" data-fr="À propos" data-ar="من نحن">À propos</a></nav><button id="lang">العربية</button></header>
-<main><section class="hero"><div><label>✦ GRATUIT · RAPIDE · SIMPLE</label><h1 data-fr="Les bons outils.<br><em>Moins de complications.</em>" data-ar="أدوات مفيدة.<br><em>بلا تعقيدات.</em>">Les bons outils.<br><em>Moins de complications.</em></h1><p data-fr="Des outils simples pour tes tâches quotidiennes. Pas d'inscription, pas de prise de tête." data-ar="أدوات بسيطة لمهامك اليومية. بلا تسجيل وبلا صداع الراس.">Des outils simples pour tes tâches quotidiennes. Pas d'inscription, pas de prise de tête.</p><a class="cta" href="#tools" data-fr="Découvrir les outils ↓" data-ar="اكتشف الأدوات ↓">Découvrir les outils ↓</a><div class="proof">✓ Gratuit　⚡ Facile à utiliser　🔒 Traitement local</div></div><div class="hero-art"><div class="art-card"><div class="dots">● ● ● <span>MAROC / TOOLS</span></div><div class="tiles"><div>▦<small>QR CODE</small></div><div>▧<small>IMAGE</small></div><div>¶<small>TEXTE</small></div><div>✳<small>SECURE</small></div></div><footer>Tout au même endroit <b>● LIVE</b></footer></div><span class="bubble">✦ Simple & rapide</span><span class="bubble second">🔒 Traitement local</span></div></section>
-<div class="ad"><b>ESPACE PUBLICITAIRE</b><p>Votre publicité pourrait apparaître ici</p><small>Inactif jusqu'à la configuration d'un réseau publicitaire.</small></div>
-<section id="tools" class="section"><label>TA BOÎTE À OUTILS</label><h2 data-fr="Qu'est-ce qu'on fait aujourd'hui ?" data-ar="شنو بغيتي تدير اليوم؟">Qu'est-ce qu'on fait aujourd'hui ?</h2><p>Choisis un outil et c'est parti.</p><div class="grid">
-<article><i>▦</i><h3>Générateur QR Code</h3><p>Transforme un lien ou un texte en QR code téléchargeable.</p><button data-tool="qr">Utiliser l'outil ↗</button></article>
-<article><i class="purple">▧</i><h3>Redimensionner image</h3><p>Change la taille d'une image et télécharge-la en PNG.</p><button data-tool="resize">Utiliser l'outil ↗</button></article>
-<article><i class="orange">▤</i><h3>Images vers PDF</h3><p>Regroupe une ou plusieurs images dans un PDF.</p><button data-tool="pdf">Utiliser l'outil ↗</button></article>
-<article><i class="blue">¶</i><h3>Compteur de mots</h3><p>Compte les mots, caractères et phrases de ton texte.</p><button data-tool="words">Utiliser l'outil ↗</button></article>
-<article><i class="pink">✳</i><h3>Mot de passe sécurisé</h3><p>Génère un mot de passe fort selon tes préférences.</p><button data-tool="password">Utiliser l'outil ↗</button></article></div></section>
-<section class="section workspace" id="workspace"><label>ZONE DE TRAVAIL</label><h2 id="workTitle">Choisis un outil ci-dessus</h2><p id="workDesc">Tes fichiers restent dans ton navigateur.</p><div id="panel"><div class="empty">✦<h3>Prêt quand tu l'es</h3><p>Sélectionne un outil pour commencer.</p></div></div></section>
-<section class="about" id="about"><b class="monogram">M</b><div><label>POURQUOI MAROCTOOLS ?</label><h2>Utile, accessible et sans détour.</h2><p>MarocTools rassemble des outils pratiques dans une interface simple. Les images et textes sont traités directement dans ton navigateur, sans envoi vers notre serveur.</p></div><div class="stats"><b>0 DH<small>pour utiliser les outils</small></b><b>2<small>langues disponibles</small></b></div></section></main>
-<footer class="bottom"><a class="brand" href="#"><b>M</b><span>Maroc<strong>Tools</strong></span></a><span>© 2026 MarocTools. Outils gratuits pour tous.</span><span><a href="privacy.html">Confidentialité</a>　<a href="about.html">À propos</a></span></footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script><script src="app.js"></script></body></html>
+<header>
+  <a class="brand" href="index.html">
+    <b>M</b>
+    <span>
+      Maroc<strong>Tools</strong>
+      <small data-fr="Des outils utiles, simplement."
+             data-ar="أدوات مفيدة، بكل بساطة.">
+        Des outils utiles, simplement.
+      </small>
+    </span>
+  </a>
+
+  <nav>
+    <a href="#tools" data-fr="Outils" data-ar="الأدوات">Outils</a>
+    <a href="#about" data-fr="À propos" data-ar="من نحن">À propos</a>
+    <a href="guides.html" data-fr="Guides" data-ar="الشروحات">Guides</a>
+  </nav>
+
+  <button id="lang" type="button">العربية</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <label>✦ GRATUIT · RAPIDE · SIMPLE</label>
+
+      <h1
+        data-fr="Les bons outils.<br><em>Moins de complications.</em>"
+        data-ar="أدوات مفيدة.<br><em>بلا تعقيدات.</em>">
+        Les bons outils.<br><em>Moins de complications.</em>
+      </h1>
+
+      <p
+        data-fr="Des outils simples pour tes tâches quotidiennes. Pas d'inscription, pas de prise de tête."
+        data-ar="أدوات بسيطة لمهامك اليومية. بلا تسجيل وبلا صداع الراس.">
+        Des outils simples pour tes tâches quotidiennes. Pas d'inscription, pas de prise de tête.
+      </p>
+
+      <a class="cta" href="#tools"
+         data-fr="Découvrir les outils ↓"
+         data-ar="اكتشف الأدوات ↓">
+        Découvrir les outils ↓
+      </a>
+
+      <div class="proof">
+        ✓ Gratuit　⚡ Facile à utiliser　🔒 Traitement local
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="art-card">
+        <div class="dots">● ● ● <span>MAROC / TOOLS</span></div>
+        <div class="tiles">
+          <div>▦<small>QR CODE</small></div>
+          <div>▧<small>IMAGE</small></div>
+          <div>¶<small>TEXTE</small></div>
+          <div>✳<small>SECURE</small></div>
+        </div>
+        <footer>Tout au même endroit <b>● LIVE</b></footer>
+      </div>
+      <span class="bubble">✦ Simple & rapide</span>
+      <span class="bubble second">🔒 Traitement local</span>
+    </div>
+  </section>
+
+  <div class="ad">
+    <b>ESPACE PUBLICITAIRE</b>
+    <p>Votre publicité pourrait apparaître ici</p>
+    <small>Inactif jusqu'à la configuration d'un réseau publicitaire.</small>
+  </div>
+
+  <section id="tools" class="section">
+    <label>TA BOÎTE À OUTILS</label>
+
+    <h2 data-fr="Qu'est-ce qu'on fait aujourd'hui ?"
+        data-ar="شنو بغيتي تدير اليوم؟">
+      Qu'est-ce qu'on fait aujourd'hui ?
+    </h2>
+
+    <p>Choisis un outil et c'est parti.</p>
+
+    <div class="grid">
+      <article>
+        <i>▦</i>
+        <h3>Générateur QR Code</h3>
+        <p>Transforme un lien ou un texte en QR code téléchargeable.</p>
+        <button type="button" data-tool="qr">Utiliser l'outil ↗</button>
+      </article>
+
+      <article>
+        <i class="purple">▧</i>
+        <h3>Redimensionner image</h3>
+        <p>Change la taille d'une image et télécharge-la en PNG.</p>
+        <button type="button" data-tool="resize">Utiliser l'outil ↗</button>
+      </article>
+
+      <article>
+        <i class="orange">▤</i>
+        <h3>Images vers PDF</h3>
+        <p>Regroupe une ou plusieurs images dans un PDF.</p>
+        <button type="button" data-tool="pdf">Utiliser l'outil ↗</button>
+      </article>
+
+      <article>
+        <i class="blue">¶</i>
+        <h3>Compteur de mots</h3>
+        <p>Compte les mots, caractères et phrases de ton texte.</p>
+        <button type="button" data-tool="words">Utiliser l'outil ↗</button>
+      </article>
+
+      <article>
+        <i class="pink">✳</i>
+        <h3>Mot de passe sécurisé</h3>
+        <p>Génère un mot de passe fort selon tes préférences.</p>
+        <button type="button" data-tool="password">Utiliser l'outil ↗</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="section workspace" id="workspace">
+    <label>ZONE DE TRAVAIL</label>
+    <h2 id="workTitle">Choisis un outil ci-dessus</h2>
+    <p id="workDesc">Tes fichiers restent dans ton navigateur.</p>
+
+    <div id="panel">
+      <div class="empty">
+        ✦
+        <h3>Prêt quand tu l'es</h3>
+        <p>Sélectionne un outil pour commencer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="guides-preview">
+    <label>APPRENDRE À UTILISER LES OUTILS</label>
+    <h2>Besoin d'aide ?</h2>
+    <p>
+      Consulte nos guides pour apprendre à créer un QR Code,
+      redimensionner une image, convertir des images en PDF,
+      compter les mots et générer un mot de passe.
+    </p>
+    <a class="cta" href="guides.html">Consulter les guides ↗</a>
+  </section>
+
+  <section class="about" id="about">
+    <b class="monogram">M</b>
+
+    <div>
+      <label>POURQUOI MAROCTOOLS ?</label>
+      <h2>Utile, accessible et sans détour.</h2>
+      <p>
+        MarocTools rassemble des outils pratiques dans une interface
+        simple. Les images et textes sont traités directement dans
+        ton navigateur lorsque le fonctionnement de l'outil le permet.
+      </p>
+    </div>
+
+    <div class="stats">
+      <b>0 DH<small>pour utiliser les outils</small></b>
+      <b>2<small>langues disponibles</small></b>
+    </div>
+  </section>
+</main>
+
+<footer class="bottom">
+  <a class="brand" href="index.html">
+    <b>M</b><span>Maroc<strong>Tools</strong></span>
+  </a>
+
+  <span>© 2026 MarocTools. Outils gratuits pour tous.</span>
+
+  <span>
+    <a href="guides.html">Guides</a>　
+    <a href="privacy.html">Confidentialité</a>　
+    <a href="about.html">À propos</a>
+  </span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+<script src="app.js"></script>
+</body>
+</html>
