@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contactez MarocTools pour vos questions, suggestions et signalements de problèmes concernant nos outils gratuits.">
+  <meta name="theme-color" content="#0f766e">
+  <title>Contact | MarocTools</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-wrap {
+      max-width: 850px;
+      margin: 55px auto;
+      padding: 24px;
+    }
+
+    .contact-hero {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-hero h1 {
+      font-size: clamp(30px, 5vw, 42px);
+      margin-bottom: 12px;
+    }
+
+    .contact-hero p {
+      max-width: 650px;
+      margin: auto;
+      line-height: 1.8;
+      color: #64748b;
+    }
+
+    .contact-card {
+      background: #fff;
+      padding: 30px;
+      border: 1px solid #dfe7e9;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(15, 23, 42, .05);
+    }
+
+    .contact-card h2 {
+      margin-top: 0;
+    }
+
+    .contact-card p {
+      line-height: 1.8;
+      color: #52616b;
+    }
+
+    .email-box {
+      background: #eaf7f5;
+      border: 1px solid #ccebe5;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 22px 0;
+      overflow-wrap: anywhere;
+    }
+
+    .email-address {
+      display: block;
+      font-size: clamp(17px, 3vw, 21px);
+      font-weight: 700;
+      margin: 10px 0 16px;
+      color: #115e59;
+    }
+
+    .contact-button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #0f766e;
+      color: #fff;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 5px 5px 5px 0;
+    }
+
+    .contact-button:hover {
+      background: #115e59;
+    }
+
+    .secondary-button {
+      background: #fff;
+      color: #0f766e;
+      border: 1px solid #0f766e;
+    }
+
+    .contact-note {
+      border-left: 4px solid #0f766e;
+      padding: 12px 16px;
+      background: #f4f7f8;
+      border-radius: 6px;
+      margin-top: 24px;
+    }
+
+    @media (max-width: 600px) {
+      .contact-wrap {
+        margin: 30px auto;
+        padding: 16px;
+      }
+
+      .contact-card {
+        padding: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a class="brand" href="index.html">
+      <b>M</b>
+      <span>Maroc<strong>Tools</strong>
+        <small>Des outils utiles, simplement.</small>
+      </span>
+    </a>
+
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="guides.html">Guides</a>
+      <a href="about.html">À propos</a>
+      <a href="privacy.html">Confidentialité</a>
+    </nav>
+  </header>
+
+  <main class="contact-wrap">
+    <section class="contact-hero">
+      <h1>Contactez MarocTools</h1>
+      <p>
+        Une question, une suggestion ou un problème avec l'un de nos outils ?
+        Nous vous invitons à nous écrire par e-mail.
+      </p>
+    </section>
+
+    <section class="contact-card">
+      <h2>Nous contacter</h2>
+      <p>
+        Votre avis nous aide à améliorer MarocTools et à rendre nos outils
+        plus simples et plus utiles. Vous pouvez nous contacter pour poser
+        une question, proposer une amélioration ou signaler un problème.
+      </p>
+
+      <div class="email-box">
+        <strong>Adresse e-mail de contact</strong>
+        <a class="email-address"
+           href="mailto:aimad.zaki2000@gmail.com">
+          aimad.zaki2000@gmail.com
+        </a>
+
+        <a class="contact-button"
+           href="mailto:aimad.zaki2000@gmail.com?subject=Contact%20MarocTools">
+          Envoyer un e-mail
+        </a>
+
+        <button class="contact-button secondary-button"
+                type="button"
+                id="copyEmail">
+          Copier l'adresse
+        </button>
+        <p id="copyStatus" role="status" aria-live="polite"></p>
+      </div>
+
+      <h2>Pour nous aider à comprendre votre demande</h2>
+      <p>
+        Si vous signalez un problème, précisez le nom de l'outil utilisé,
+        les étapes suivies et le résultat obtenu. Si possible, indiquez
+        également le navigateur utilisé.
+      </p>
+
+      <div class="contact-note">
+        <strong>Conseil de sécurité :</strong>
+        n'envoyez jamais vos mots de passe, vos informations bancaires
+        ou des documents personnels sensibles par e-mail.
+      </div>
+
+      <p>
+        Nous ferons de notre mieux pour examiner les messages reçus.
+        Le délai de réponse peut varier.
+      </p>
+
+      <a class="contact-button" href="index.html">
+        Retour à l'accueil
+      </a>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <a class="brand" href="index.html">
+      <b>M</b><span>Maroc<strong>Tools</strong></span>
+    </a>
+    <span>© 2026 MarocTools. Outils gratuits pour tous.</span>
+    <span>
+      <a href="guides.html">Guides</a>　
+      <a href="privacy.html">Confidentialité</a>　
+      <a href="about.html">À propos</a>
+    </span>
+  </footer>
+
+  <script>
+    const copyButton = document.getElementById("copyEmail");
+    const copyStatus = document.getElementById("copyStatus");
+    const emailAddress = "aimad.zaki2000@gmail.com";
+
+    copyButton.addEventListener("click", async function () {
+      try {
+        await navigator.clipboard.writeText(emailAddress);
+        copyStatus.textContent = "Adresse e-mail copiée.";
+      } catch (error) {
+        copyStatus.textContent =
+          "La copie automatique n'est pas disponible. Sélectionnez l'adresse et copiez-la manuellement.";
+      }
+    });
+  </script>
+</body>
+</html>
